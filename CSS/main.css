@@ -85,6 +85,7 @@ img
 {
     position: absolute;
     top: 0px;
+    height: 100%;
 }
 @media only screen and (max-width: 1150px)
 {
@@ -116,5 +117,39 @@ img
     h1#dulces
     {
         font-size: 45px;
+    }
+}
+@media only screen and (max-width: 400px)
+{
+    div.content
+    {
+        font-size: 8px;
+        height: 24%;
+        width: 40%;
+        left: 55%;
+    }
+    div.borde
+    {
+        width: 70%;
+        right: 5%;
+        top: 60%;
+        height: 25%;
+    }
+    table.tabla
+    {
+        font-size: 10px;
+    }
+    h1#dulces
+    {
+        font-size: 30px;
+        width: 50%;
+    }
+    img#titulo
+    {  
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        height: 100px;
+        margin: 0px 5%;
     }
 }
