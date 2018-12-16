@@ -6,6 +6,7 @@ body
     font-style: normal;
     font-weight: 400;
     color: #144A7A;
+    overflow: hidden;
 }
 div.background
 {
@@ -123,17 +124,18 @@ img
 {
     div.content
     {
-        font-size: 8px;
-        height: 24%;
+        font-size: 7px;
+        height: 25%;
         width: 40%;
         left: 55%;
+        top: 25%;
     }
     div.borde
     {
         width: 70%;
         right: 5%;
-        top: 60%;
-        height: 25%;
+        top: 50%;
+        height: 35%;
     }
     table.tabla
     {
@@ -141,13 +143,15 @@ img
     }
     h1#dulces
     {
-        font-size: 30px;
-        width: 50%;
+        font-size: 25px;
+        width: 40%;
+        top: 5%;
+        text-align: center;
     }
     img#titulo
     {  
         position: absolute;
-        top: 35%;
+        top: 25%;
         left: 5%;
         height: 100px;
         margin: 0px 5%;
