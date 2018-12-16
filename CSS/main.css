@@ -44,7 +44,7 @@ div.borde
 {
     position: absolute;
     padding: 25px;
-    right: 5%;
+    right: 2%;
     top: 35%;
     border-top-width: 0px;
     border-bottom-width: 0px;
@@ -85,4 +85,36 @@ img
 {
     position: absolute;
     top: 0px;
+}
+@media only screen and (max-width: 1150px)
+{
+    div.content
+    {
+        font-size: 12px;
+    }
+    h1#dulces
+    {
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width: 970px)
+{
+    div.content
+    {
+        font-size: 11px;
+        top: 35%;
+        bottom: none;
+        left: 45%;
+        width: 25%;
+    }
+    div.borde
+    {
+        top: 65%;
+        width: 80%;
+        right: 10%;
+    }
+    h1#dulces
+    {
+        font-size: 45px;
+    }
 }
