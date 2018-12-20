@@ -37,7 +37,7 @@ div.content
     display: flex;
     font-size: 14px;
     align-content: flex-start;
-    justify-content: center
+    justify-content: center;
 }
 a#reloj
 {
@@ -75,6 +75,7 @@ table.tabla
     border-color: #144A7A;
     width: 100%;
     font-size: 20px;
+    text-align: start;
 }
 h1#dulces
 {
