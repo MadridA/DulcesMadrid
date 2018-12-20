@@ -168,4 +168,8 @@ img
     {
         height: 100%;
     }
+    b
+    {
+        font-size: 10px;
+    }
 }
