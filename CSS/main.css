@@ -77,6 +77,12 @@ table.tabla
     font-size: 20px;
     text-align: start;
 }
+th#head
+{
+    font-weight: bold;
+    background-color: #144A7A;
+    color: aliceblue;
+}
 h1#dulces
 {
     position: absolute;
