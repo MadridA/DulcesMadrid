@@ -2,7 +2,7 @@ var imprimeR = document.getElementById('reloj');
 document.addEventListener('load', showRemaining());
 
 
-var end = new Date('12/21/2018 6:40 PM');
+var end = new Date('12/21/2018 3:50 PM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -18,7 +18,7 @@ var end = new Date('12/21/2018 6:40 PM');
 
             clearInterval(timer);
             imprimeR.innerHTML = '¡Realizada!';
-            imprimeR.href = 'www.google.com';
+            //imprimeR.href = 'www.google.com';
 
             return;
         }
