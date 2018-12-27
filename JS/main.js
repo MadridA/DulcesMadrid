@@ -2,7 +2,7 @@ var imprimeR = document.getElementById('reloj');
 document.addEventListener('load', showRemaining());
 
 
-var end = new Date('12/21/2018 3:50 PM');
+var end = new Date('12/28/2018 3:50 PM');
 
     var _second = 1000;
     var _minute = _second * 60;
